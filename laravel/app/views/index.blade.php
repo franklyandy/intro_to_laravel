@@ -3,11 +3,14 @@
 @section('content')
   <!-- Main component for a primary marketing message or call to action -->
   <div class="jumbotron">
-    <h1>Navbar example</h1>
-    <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-    <p>To see the difference between static and fixed top navbars, just scroll.</p>
+    <h1>OCR Connect</h1>
+    <p>Obstacle Course Racing (OCR) is all about teamwork and pushing each other to new levels.</p>
+    <p>Whether you are a {{ link_to('http://www.spartan.com/', 'Spartan') }}, a {{ link_to('https://www.warriordash.com/', 'Warrior') }}, a {{ link_to('https://toughmudder.com', 'Tough Mudder') }}, or a {{ link_to('http://www.mudninja.com', 'Mud Ninja') }}, OCR Connect is the place to go
+       when you want to connect with OCR fanatics!
+    </p>
+    <p>Check out our {{ link_to('teams', 'teams') }} to find the team that best fits you!</p>
     <p>
-      <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs »</a>
+      <a class="btn btn-lg btn-primary" href="{{url('teams')}}" role="button">Show me the teams »</a>
     </p>
   </div>
 @stop

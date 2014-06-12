@@ -11,7 +11,7 @@
 |
 */
 
-Route::resource('api/teams', 'TeamController');
+Route::resource('teams', 'TeamController');
 
 Route::get('/', function()
 {
