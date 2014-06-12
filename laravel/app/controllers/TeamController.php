@@ -4,15 +4,10 @@ class TeamController extends BaseController {
 
 	public function index()
 	{
+		$teams = Team::all();
+
 		return Response::json(
-			array(
-				array(
-					'name' => 'Team Awesome'
-				),
-				array(
-					'name' => 'Team Cool' 
-				)
-			)
+			array($teams)
 		);
 	}
 
