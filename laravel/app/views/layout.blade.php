@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css"><!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" type="text/css"><!-- Latest compiled and minified JavaScript -->
 
+    {{ HTML::style('assets/css/styles.css') }}
+
   </head>
   <body>
  
@@ -48,11 +50,6 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
