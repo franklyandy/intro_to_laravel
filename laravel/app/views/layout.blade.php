@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>
-      Intro To Laravel
+      OCR Connect
     </title>
 
     <!--Bootstrap-->
@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Intro to Laravel</a>
+          <a class="navbar-brand" href="#">OCR Connect</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
